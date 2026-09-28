@@ -1,274 +1,718 @@
+<!doctype html>
+<html lang="en">
 
-<title>Mohammad Ghomi | DevOps & Infrastructure Engineer</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+        content="Mohammad Ghomi — DevOps & Infrastructure Engineer specializing in Linux, Docker, Kubernetes, CI/CD, automation, cloud and enterprise infrastructure.">
+
+    <meta name="author" content="Mohammad Ghomi">
+
+    <title>Mohammad Ghomi | DevOps & Infrastructure Engineer</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Progress Bar
+    ========================== -->
+    <div class="progress"></div>
 
 
-html
-<div class="hero-copy">
-    <p class="eyebrow">
-        <i></i> DEVOPS • INFRASTRUCTURE • AUTOMATION
-    </p>
+    <!-- =========================
+         Header / Navigation
+    ========================== -->
+    <header>
+        <nav class="nav">
 
-    <h1>
-        Building <b>reliable infrastructure</b>
-        for production systems.
-    </h1>
+            <a class="logo" href="#home">
+                M<span>.</span>
+            </a>
 
-    <p>
-        I'm Mohammad Ghomi, a DevOps & Infrastructure Engineer with
-        3 years of hands-on experience in Linux, Docker, Kubernetes,
-        CI/CD, networking, observability, enterprise infrastructure
-        and production troubleshooting.
-    </p>
+            <button class="menu" aria-label="Open navigation menu">
+                ☰
+            </button>
 
-    <div class="actions">
-        <a class="btn primary" href="#projects">
-            Explore my work
-        </a>
+            <div class="links">
 
-        <a class="btn"
-           href="assets/Mohammad_Ghomi_CV.pdf"
-           download>
-            Download CV
-        </a>
-    </div>
+                <a href="#about">About</a>
 
-    <div class="social">
-        <a href="https://github.com/mohammadghomi"
-           target="_blank"
-           rel="noopener">
-            GitHub ↗
-        </a>
+                <a href="#skills">Skills</a>
 
-        <a href="https://www.linkedin.com/in/mohammad-ghomi"
-           target="_blank"
-           rel="noopener">
-            LinkedIn ↗
-        </a>
-    </div>
-</div>
-```
+                <a href="#projects">Projects</a>
 
-html
-<section id="about" class="section">
-    <div class="container two">
+                <a href="#experience">Experience</a>
 
-        <div>
-            <p class="eyebrow">01 — ABOUT</p>
+                <a href="#contact">Contact</a>
 
-            <h2>
-                Infrastructure with
-                <em>an engineering mindset.</em>
-            </h2>
-        </div>
+                <button id="theme" aria-label="Toggle theme">
+                    ☾
+                </button>
 
-        <div class="copy">
+            </div>
 
-            <p>
-                I'm Mohammad Ghomi, a DevOps and Infrastructure Engineer
-                based in Tehran, Iran, with 3 years of professional
-                experience in production and enterprise infrastructure.
-            </p>
+        </nav>
+    </header>
 
-            <p>
-                My experience covers Linux administration, Docker,
-                Kubernetes, CI/CD, Infrastructure as Code, networking,
-                reverse proxies, databases, monitoring, observability,
-                mail infrastructure and enterprise application operations.
-            </p>
 
-            <p>
-                I focus on building infrastructure that is repeatable,
-                observable, maintainable and resilient.
-            </p>
+    <main>
 
-            <div class="stats">
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section id="home" class="hero">
 
-                <div>
-                    <strong>3+</strong>
-                    <small>Years Experience</small>
-                </div>
+            <div class="container">
 
-                <div>
-                    <strong>DevOps</strong>
-                    <small>Infrastructure & Automation</small>
-                </div>
+                <div class="hero-copy">
 
-                <div>
-                    <strong>HA</strong>
-                    <small>Availability & Resilience</small>
+                    <p class="eyebrow">
+                        <i></i>
+                        DEVOPS • INFRASTRUCTURE • AUTOMATION
+                    </p>
+
+                    <h1>
+                        Building <b>reliable infrastructure</b>
+                        for production systems.
+                    </h1>
+
+                    <p>
+                        I'm Mohammad Ghomi, a DevOps & Infrastructure
+                        Engineer with 3 years of hands-on experience in
+                        Linux, Docker, Kubernetes, CI/CD, networking,
+                        observability, enterprise infrastructure and
+                        production troubleshooting.
+                    </p>
+
+                    <div class="actions">
+
+                        <a class="btn primary" href="#projects">
+                            Explore my work
+                        </a>
+
+                        <a class="btn"
+                           href="assets/Mohammad-CV.pdf"
+                           download>
+                            Download CV
+                        </a>
+
+                    </div>
+
+                    <div class="social">
+
+                        <a href="https://github.com/mohammadghomi"
+                           target="_blank"
+                           rel="noopener">
+                            GitHub ↗
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/mohammad-ghomi"
+                           target="_blank"
+                           rel="noopener">
+                            LinkedIn ↗
+                        </a>
+
+                    </div>
+
                 </div>
 
             </div>
 
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section id="about" class="section">
+
+            <div class="container two">
+
+                <div>
+
+                    <p class="eyebrow">
+                        01 — ABOUT
+                    </p>
+
+                    <h2>
+                        Infrastructure with
+                        <em>an engineering mindset.</em>
+                    </h2>
+
+                </div>
+
+                <div class="copy">
+
+                    <p>
+                        I'm Mohammad Ghomi, a DevOps and Infrastructure
+                        Engineer based in Tehran, Iran, with 3 years of
+                        professional experience in production and
+                        enterprise infrastructure.
+                    </p>
+
+                    <p>
+                        My experience covers Linux administration,
+                        Docker, Kubernetes, CI/CD, Infrastructure as
+                        Code, networking, reverse proxies, databases,
+                        monitoring, observability, mail infrastructure
+                        and enterprise application operations.
+                    </p>
+
+                    <p>
+                        I focus on building infrastructure that is
+                        repeatable, observable, maintainable and
+                        resilient.
+                    </p>
+
+                    <div class="stats">
+
+                        <div>
+                            <strong>3+</strong>
+                            <small>Years Experience</small>
+                        </div>
+
+                        <div>
+                            <strong>DevOps</strong>
+                            <small>Infrastructure & Automation</small>
+                        </div>
+
+                        <div>
+                            <strong>HA</strong>
+                            <small>Availability & Resilience</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+        <section id="skills" class="section alt">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    02 — TECHNICAL STACK
+                </p>
+
+                <h2>
+                    Tools I work with.
+                </h2>
+
+                <div class="skills-grid">
+
+                    <article>
+                        <em>01</em>
+                        <h3>Linux & System Administration</h3>
+                        <p>
+                            Linux · LPIC-1 / LPIC-2 Knowledge · SSH ·
+                            systemd · networking · storage ·
+                            server hardening
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>02</em>
+                        <h3>Containers</h3>
+                        <p>
+                            Docker · Docker Compose · Docker Registry ·
+                            Kubernetes · Container Networking
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>03</em>
+                        <h3>Infrastructure as Code</h3>
+                        <p>
+                            Terraform · Ansible · Infrastructure
+                            Automation · Configuration Management
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>04</em>
+                        <h3>CI/CD</h3>
+                        <p>
+                            Jenkins · GitHub · GitLab · Pipelines ·
+                            Build Automation · Deployment Automation
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>05</em>
+                        <h3>Cloud & Virtualization</h3>
+                        <p>
+                            AWS · Azure · VPC · EC2 · S3 · IAM ·
+                            VMware · VPS
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>06</em>
+                        <h3>Networking</h3>
+                        <p>
+                            TCP/IP · DNS · VPN · Routing ·
+                            Reverse Proxy · Load Balancing ·
+                            SSL/TLS
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>07</em>
+                        <h3>Linux & System Administration</h3>
+                        <p>
+                            Linux · LPIC-1 / LPIC-2 Knowledge · SSH ·
+                            systemd · networking · storage ·
+                            server hardening
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>08</em>
+                        <h3>Web Infrastructure</h3>
+                        <p>
+                            Nginx · Apache · IIS · ARR ·
+                            Reverse Proxy · SSL/TLS
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>09</em>
+                        <h3>Databases</h3>
+                        <p>
+                            SQL Server · PostgreSQL · MongoDB ·
+                            Redis
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>10</em>
+                        <h3>Observability</h3>
+                        <p>
+                            Prometheus · Grafana · Loki · Jaeger ·
+                            Logging · Metrics · Tracing
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>11</em>
+                        <h3>Source Control & DevOps</h3>
+                        <p>
+                            Git · GitHub · GitLab · Jenkins · CI/CD ·
+                            Docker Registry · Release Automation
+                        </p>
+                    </article>
+
+                    <article>
+                        <em>12</em>
+                        <h3>Mail Infrastructure</h3>
+                        <p>
+                            Postfix · Dovecot · SMTP · DNS ·
+                            DKIM · SPF · DMARC
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+        <section id="projects" class="section">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    03 — SELECTED PROJECTS
+                </p>
+
+                <h2>
+                    Infrastructure projects.
+                </h2>
+
+                <div class="projects-grid">
+
+                    <article class="project">
+                        <small>01</small>
+
+                        <h3>
+                            Enterprise Infrastructure
+                        </h3>
+
+                        <p>
+                            Designed and operated production-oriented
+                            infrastructure covering Linux systems,
+                            containers, networking, reverse proxies,
+                            databases and observability.
+                        </p>
+
+                        <div class="tags">
+                            <span>Linux</span>
+                            <span>Docker</span>
+                            <span>Nginx</span>
+                            <span>Monitoring</span>
+                        </div>
+                    </article>
+
+
+                    <article class="project">
+                        <small>02</small>
+
+                        <h3>
+                            Kubernetes Infrastructure
+                        </h3>
+
+                        <p>
+                            Worked with Kubernetes environments,
+                            container workloads, services,
+                            networking and deployment automation.
+                        </p>
+
+                        <div class="tags">
+                            <span>Kubernetes</span>
+                            <span>Docker</span>
+                            <span>CI/CD</span>
+                        </div>
+                    </article>
+
+
+                    <article class="project">
+                        <small>03</small>
+
+                        <h3>
+                            CI/CD Automation
+                        </h3>
+
+                        <p>
+                            Built and maintained automated workflows
+                            for source control, application builds,
+                            container images and deployments.
+                        </p>
+
+                        <div class="tags">
+                            <span>Jenkins</span>
+                            <span>Git</span>
+                            <span>GitLab</span>
+                        </div>
+                    </article>
+
+
+                    <article class="project">
+                        <small>04</small>
+
+                        <h3>
+                            Infrastructure as Code
+                        </h3>
+
+                        <p>
+                            Applied Terraform and Ansible for
+                            repeatable infrastructure provisioning
+                            and configuration management.
+                        </p>
+
+                        <div class="tags">
+                            <span>Terraform</span>
+                            <span>Ansible</span>
+                            <span>IaC</span>
+                        </div>
+                    </article>
+
+
+                    <article class="project">
+                        <small>05</small>
+
+                        <h3>
+                            Observability Platform
+                        </h3>
+
+                        <p>
+                            Worked with metrics, logs and distributed
+                            tracing to improve visibility into
+                            production systems.
+                        </p>
+
+                        <div class="tags">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Loki</span>
+                            <span>Jaeger</span>
+                        </div>
+                    </article>
+
+
+                    <article class="project">
+                        <small>06</small>
+
+                        <h3>
+                            Reverse Proxy Architecture
+                        </h3>
+
+                        <p>
+                            Implemented and troubleshot reverse proxy
+                            and application gateway configurations
+                            using Nginx and IIS ARR.
+                        </p>
+
+                        <div class="tags">
+                            <span>Nginx</span>
+                            <span>IIS</span>
+                            <span>ARR</span>
+                            <span>SSL/TLS</span>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE
+        ========================== -->
+        <section id="experience" class="section alt">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    04 — EXPERIENCE
+                </p>
+
+                <h2>
+                    Production-oriented engineering.
+                </h2>
+
+                <div class="timeline">
+
+                    <article>
+
+                        <i></i>
+
+                        <small>
+                            DEVOPS / INFRASTRUCTURE ENGINEERING
+                        </small>
+
+                        <h3>
+                            Sazman Bazresi
+                        </h3>
+
+                        <p>
+                            3 years of hands-on experience working with
+                            production infrastructure, Linux servers,
+                            Docker workloads, IIS, Nginx, reverse
+                            proxies, databases, Redis, SSL/TLS, DNS
+                            and application troubleshooting.
+                        </p>
+
+                        <p>
+                            Worked with Kubernetes, Terraform, Ansible,
+                            Jenkins, Git, GitHub, GitLab, Prometheus,
+                            Grafana, Loki and Jaeger across
+                            infrastructure automation, deployment and
+                            observability.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <i></i>
+
+                        <small>
+                            ENTERPRISE INFRASTRUCTURE
+                        </small>
+
+                        <h3>
+                            Infrastructure Architecture
+                        </h3>
+
+                        <p>
+                            Practical experience with enterprise
+                            infrastructure design, networking, high
+                            availability, monitoring, virtualization,
+                            cloud environments and production
+                            operations.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <i></i>
+
+                        <small>
+                            ACHIEVEMENT
+                        </small>
+
+                        <h3>
+                            Quera Technical Competition
+                        </h3>
+
+                        <p>
+                            Achieved a top ranking in a Quera technical
+                            examination / competition.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ENGINEERING APPROACH
+        ========================== -->
+        <section class="section">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    05 — ENGINEERING APPROACH
+                </p>
+
+                <h2>
+                    How I approach infrastructure.
+                </h2>
+
+                <div class="approach-grid">
+
+                    <article>
+                        <h3>Automation First</h3>
+                        <p>
+                            Reduce repetitive manual operations through
+                            automation, Infrastructure as Code and
+                            reliable deployment workflows.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3>Observable Systems</h3>
+                        <p>
+                            Build systems with meaningful logs,
+                            metrics and traces so failures can be
+                            diagnosed quickly.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3>Reliability</h3>
+                        <p>
+                            Design infrastructure with resilience,
+                            predictable recovery and operational
+                            simplicity in mind.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3>Security</h3>
+                        <p>
+                            Apply practical security controls around
+                            access, networking, secrets, TLS and
+                            server hardening.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+        <section id="contact" class="section contact">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    06 — CONTACT
+                </p>
+
+                <h2>
+                    Let's build reliable infrastructure.
+                </h2>
+
+                <p>
+                    I'm open to professional opportunities,
+                    infrastructure projects and technical
+                    collaboration.
+                </p>
+
+                <div class="actions">
+
+                    <a class="btn primary"
+                       href="mailto:mohammad.ghomi2000@gmail.com">
+                        Email Me
+                    </a>
+
+                    <a class="btn"
+                       href="https://github.com/mohammadghomi"
+                       target="_blank"
+                       rel="noopener">
+                        GitHub ↗
+                    </a>
+
+                    <a class="btn"
+                       href="https://www.linkedin.com/in/mohammad-ghomi"
+                       target="_blank"
+                       rel="noopener">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer>
+
+        <div class="container">
+
+            <span>
+                © <span id="year"></span> Mohammad Ghomi
+            </span>
+
+            <span>
+                DevOps • Infrastructure • Automation
+            </span>
+
         </div>
-    </div>
-</section>
-```
+
+    </footer>
 
 
-<article>
-    <em>07</em>
-    <h3>Linux & System Administration</h3>
-    <p>
-        Linux · LPIC-1 / LPIC-2 Knowledge · SSH · systemd ·
-        networking · storage · server hardening
-    </p>
-</article>
-```
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
 
-
-
-html
-<article>
-    <em>11</em>
-    <h3>Source Control & DevOps</h3>
-    <p>
-        Git · GitHub · GitLab · Jenkins · CI/CD ·
-        Docker Registry · Release Automation
-    </p>
-</article>
-
-
-
-
-html
-<section id="experience" class="section alt">
-    <div class="container">
-
-        <p class="eyebrow">04 — EXPERIENCE</p>
-
-        <h2>
-            Production-oriented engineering.
-        </h2>
-
-        <div class="timeline">
-
-            <article>
-                <i></i>
-
-                <small>
-                    DEVOPS / INFRASTRUCTURE ENGINEERING
-                </small>
-
-                <h3>
-                    Sazman Bazresi
-                </h3>
-
-                <p>
-                    3 years of hands-on experience working with
-                    production infrastructure, Linux servers,
-                    Docker workloads, IIS, Nginx, reverse proxies,
-                    databases, Redis, SSL/TLS, DNS and application
-                    troubleshooting.
-                </p>
-
-                <p>
-                    Worked with Kubernetes, Terraform, Ansible,
-                    Jenkins, Git, GitHub, GitLab, Prometheus,
-                    Grafana, Loki and Jaeger across infrastructure
-                    automation, deployment and observability.
-                </p>
-            </article>
-
-            <article>
-                <i></i>
-
-                <small>
-                    ENTERPRISE INFRASTRUCTURE
-                </small>
-
-                <h3>
-                    Infrastructure Architecture
-                </h3>
-
-                <p>
-                    Practical experience with enterprise
-                    infrastructure design, networking, high
-                    availability, monitoring, virtualization,
-                    cloud environments and production operations.
-                </p>
-            </article>
-
-            <article>
-                <i></i>
-
-                <small>
-                    ACHIEVEMENT
-                </small>
-
-                <h3>
-                    Quera Technical Competition
-                </h3>
-
-                <p>
-                    Achieved a top ranking in a Quera technical
-                    examination / competition.
-                </p>
-            </article>
-
-        </div>
-    </div>
-</section>
-
-
-
-<section id="contact" class="section contact">
-
-    <div class="container">
-
-        <p class="eyebrow">06 — CONTACT</p>
-
-        <h2>
-            Let's build reliable infrastructure.
-        </h2>
-
-        <p>
-            I'm open to professional opportunities,
-            infrastructure projects and technical collaboration.
-        </p>
-
-        <div class="actions">
-
-            <a
-                class="btn primary"
-                href="mailto:mohammad.ghomi2000@gmail.com">
-                Email Me
-            </a>
-
-            <a
-                class="btn"
-                href="https://github.com/mohammadghomi"
-                target="_blank"
-                rel="noopener">
-                GitHub ↗
-            </a>
-
-            <a
-                class="btn"
-                href="https://www.linkedin.com/in/mohammad-ghomi"
-                target="_blank"
-                rel="noopener">
-                LinkedIn ↗
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-Footer:
-
-html
-<footer>
-    <div class="container">
-        <span>
-            © <span id="year"></span> Mohammad Ghomi
-        </span>
-
-        <span>
-            DevOps • Infrastructure • Automation
-        </span>
-    </div>
-</footer>
-
+</body>
+</html>
