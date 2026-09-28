@@ -1,15 +1,28 @@
-# DevOps Portfolio
+# Mohammad Ghomi — DevOps & Infrastructure Engineer
 
-A responsive English portfolio for a DevOps / Infrastructure Engineer.
+DevOps & Infrastructure Engineer focused on Linux, Docker, Kubernetes,
+CI/CD, Infrastructure as Code, networking, observability and enterprise infrastructure.
 
-## Stack
-HTML5 • CSS3 • Vanilla JavaScript — no dependencies.
+## Portfolio
 
-## GitHub Pages
-Create a repository named `YOUR_USERNAME.github.io`, upload the files, then go to **Settings → Pages → Deploy from a branch → main → /(root)**.
+https://mohammadghomi.github.io
 
-## Before publishing
-Replace the GitHub and LinkedIn URLs, email address, name if needed, and add your CV as `assets/Mohammad-CV.pdf`.
+## Technologies
 
-## Included skills
-The portfolio highlights Kubernetes, Docker, Terraform, Ansible, Jenkins, Git/GitHub/GitLab, Prometheus, Grafana, Loki, Jaeger, AWS/VPC, Linux/LPIC-2-level knowledge, Apache, Nginx, IIS, VPS, mail server, OpenVPN, WOPI/Office Online, SQL Server Always On, Redis, PostgreSQL, MongoDB, C#/.NET and Django.
+- Linux
+- Docker
+- Kubernetes
+- Terraform
+- Ansible
+- Jenkins
+- Git / GitHub / GitLab
+- AWS / Azure
+- Nginx / Apache / IIS
+- Prometheus / Grafana / Loki / Jaeger
+- PostgreSQL / SQL Server / MongoDB / Redis
+
+## Contact
+
+- Email: mohammad.ghomi2000@gmail.com
+- GitHub: https://github.com/mohammadghomi
+- LinkedIn: https://www.linkedin.com/in/mohammad-ghomi
