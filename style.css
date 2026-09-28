@@ -101,7 +101,7 @@ header {
     min-height: auto;
     position: relative;
     overflow: hidden;
-    padding: 125px 0 55px;
+    padding: 115px 0 10px;
 }
 
 .hero-copy {
@@ -214,7 +214,7 @@ h1 b {
 ========================= */
 
 .section {
-    padding: 75px 0;
+    padding: 55px 0;
 }
 
 .alt {
