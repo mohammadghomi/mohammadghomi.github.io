@@ -531,3 +531,83 @@ footer .container {
         gap: 5px;
     }
 }
+/* =========================
+   LIGHT MODE
+========================= */
+
+html[data-theme="light"] {
+    --bg: #f5f7fb;
+    --alt: #e9eef6;
+    --card: #ffffff;
+    --text: #111827;
+    --muted: #5b6472;
+    --line: #0f172a18;
+    --a: #0284c7;
+    --b: #4f46e5;
+    --good: #059669;
+}
+
+html[data-theme="light"] body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+html[data-theme="light"] header {
+    background: #f5f7fbdc;
+}
+
+html[data-theme="light"] .hero:after {
+    background: radial-gradient(
+        circle,
+        #38bdf825,
+        transparent 68%
+    );
+}
+
+html[data-theme="light"] .btn {
+    background: var(--card);
+    color: var(--text);
+}
+
+html[data-theme="light"] .primary {
+    background: #111827;
+    color: #ffffff;
+}
+
+html[data-theme="light"] #theme,
+html[data-theme="light"] .menu {
+    background: var(--card);
+    color: var(--text);
+}
+
+html[data-theme="light"] .links {
+    color: var(--muted);
+}
+
+html[data-theme="light"] .links a:hover {
+    color: var(--text);
+}
+
+html[data-theme="light"] .skills-grid article,
+html[data-theme="light"] .project,
+html[data-theme="light"] .stats div {
+    background: var(--card);
+}
+
+html[data-theme="light"] .tags span {
+    color: var(--muted);
+}
+
+html[data-theme="light"] .progress {
+    background: linear-gradient(
+        90deg,
+        var(--a),
+        var(--b)
+    );
+}
+
+@media (max-width: 650px) {
+    html[data-theme="light"] .links {
+        background: var(--bg);
+    }
+}
