@@ -5,55 +5,57 @@ const theme = document.getElementById("theme");
 // THEME
 // =========================
 
-const savedTheme = localStorage.getItem("theme");
+function setTheme(mode) {
 
-if (savedTheme === "light") {
-root.dataset.theme = "light";
+    if (mode === "light") {
 
-```
-if (theme) {
-    theme.textContent = "☀";
-    theme.setAttribute("aria-label", "Switch to dark mode");
-}
-```
-
-} else {
-delete root.dataset.theme;
-
-```
-if (theme) {
-    theme.textContent = "☾";
-    theme.setAttribute("aria-label", "Switch to light mode");
-}
-```
-
-}
-
-if (theme) {
-theme.addEventListener("click", () => {
-const isLight = root.dataset.theme === "light";
-
-```
-    if (isLight) {
-        // Switch to Dark Mode
-        delete root.dataset.theme;
-        localStorage.setItem("theme", "dark");
-
-        theme.textContent = "☾";
-        theme.setAttribute("aria-label", "Switch to light mode");
-    } else {
-        // Switch to Light Mode
         root.dataset.theme = "light";
         localStorage.setItem("theme", "light");
 
-        theme.textContent = "☀";
-        theme.setAttribute("aria-label", "Switch to dark mode");
-    }
-});
-```
+        if (theme) {
+            theme.textContent = "☀";
+            theme.setAttribute("aria-label", "Switch to dark mode");
+        }
 
+    } else {
+
+        root.removeAttribute("data-theme");
+        localStorage.setItem("theme", "dark");
+
+        if (theme) {
+            theme.textContent = "☾";
+            theme.setAttribute("aria-label", "Switch to light mode");
+        }
+
+    }
 }
 
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "light") {
+    setTheme("light");
+} else {
+    setTheme("dark");
+}
+
+if (theme) {
+
+    theme.addEventListener("click", () => {
+
+        const currentTheme =
+            root.dataset.theme === "light"
+                ? "light"
+                : "dark";
+
+        setTheme(
+            currentTheme === "light"
+                ? "dark"
+                : "light"
+        );
+
+    });
+
+}
 // =========================
 // MOBILE MENU
 // =========================
@@ -63,7 +65,7 @@ const links = document.querySelector(".links");
 
 if (menu && links) {
 
-```
+
 menu.addEventListener("click", () => {
     links.classList.toggle("open");
 });
@@ -73,7 +75,7 @@ document.querySelectorAll(".links a").forEach((link) => {
         links.classList.remove("open");
     });
 });
-```
+
 
 }
 
@@ -85,7 +87,7 @@ const io = new IntersectionObserver(
 (entries) => {
 entries.forEach((entry) => {
 
-```
+
         if (entry.isIntersecting) {
             entry.target.classList.add("visible");
             io.unobserve(entry.target);
@@ -96,7 +98,7 @@ entries.forEach((entry) => {
 {
     threshold: 0.12
 }
-```
+
 
 );
 
@@ -106,12 +108,12 @@ document
 )
 .forEach((element) => {
 
-```
+
     element.classList.add("reveal");
     io.observe(element);
 
 });
-```
+
 
 // =========================
 // SCROLL PROGRESS
@@ -121,7 +123,7 @@ const progress = document.querySelector(".progress");
 
 if (progress) {
 
-```
+
 addEventListener(
     "scroll",
     () => {
@@ -143,7 +145,7 @@ addEventListener(
         passive: true
     }
 );
-```
+
 
 }
 
